@@ -210,7 +210,92 @@ print(basket3)
 
 
 
-# 
+# Common List Patterns;
+list
+  # reverse methods
+basket = ['x', 'a', 's', 'd', 'f', 'j']
+basket.sort()
+basket.reverse()
+print(basket[::-1])   # Creates a new copy of itself
+print(basket)
+
+  # range(start, stop)
+print(list(range(3, 99)))   # As directed
+print(list(range(101)))   # 0 to Maximum, whole numbers
+
+  # join()
+sentence = ' '
+new_sentence = sentence.join(['I', 'am', 'Captain'])   # Creates new list
+print(new_sentence)
+
+print(" ! ".join(['Hello', 'Captain']))
+
+
+
+# List Unpacking;
+list
+  # *Variable-Name
+a, b, c, *other, d, e = [1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+print(a)
+print(b)
+print(c)
+print(other)
+print(d)
+print(e)
+
+
+
+# None;
+None 
+  # None represents the absence of value
+  # In other programming languages, None = Null also !
+gamer1_weapon = None
+print(gamer1_weapon)
+
+
+
+# Dictionary;
+dict
+  # Dictionary is an unordered key-value pairs
+dictonary1 = {
+  'a': [1, 2, 3],
+  'b': 'hello',
+  'c': True,
+  'first_program': 'Hello World'
+}
+print(dictonary1)
+print(dictonary1['a'])
+print(dictonary1['b'])
+print(dictonary1['c'])
+print(dictonary1['first_program'])
+
+  # Typecasting dict into list for using index order
+mylist = [
+  {
+  'a': [1, 2, 3],
+  'b': 'hello',
+  'c': True,
+  'first_program': 'Hello World'
+  },
+  {
+  'num1': 1,
+  'num2': 2,
+  'num3': [1, 2, 3]
+  }]
+
+print(mylist)
+print(mylist[0])
+print(mylist[0]['first_program'])
+
+print(mylist[1])
+print(mylist[1]['num3'])
+
+
+
+
+
+
+
 
 
 
