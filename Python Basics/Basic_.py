@@ -1,4 +1,66 @@
 
+print('Hello world')
+
+# repl.it  | with google-acc.
+    # -> glot.io  | can code without signup
+
+
+
+# First program;
+name = input('Enter your name; ')
+print('Hello ' + name)
+print('Hello', name)
+
+
+
+# Fundamental Data Types;
+int
+float
+bool
+str
+list
+tuple
+set
+dict
+# Custom Data Types -> class
+# Specialized Data Types
+None   # noting
+
+
+
+# int & float;
+  #-> integer [whole numbers] and floating value [decimal containing numbers]
+  #-> float takes more memory than int
+print(3 + 6)
+print(type(3 + 6))
+print(3 - 6)
+print(3 * 6)
+print(3 / 6)
+print(type(3 / 6))
+
+print(3 // 6)        # gives integer always
+print(type(3 // 6))
+
+print(3 % 6)   # remainder
+
+print(9**2)   # Squre of 9
+print(9**3)   # cube of 9
+
+print(3.9 + 6.1)
+print(type(3.9 + 6.1))
+
+
+
+# Math Functions;
+print(round(3.1))   # near value
+print(round(3.5))
+print(round(3.9))
+
+print(abs(-21))   # absolute value
+
+
+
+
 '''
 Developer fundamentals ;
   -> Don't try to learn dictonary
@@ -293,7 +355,7 @@ print(bool('True'))
 
 
 #  # Exercise: Type Conversion;
-  #-> How facebook stores user's data_
+  #-> How facebook store user's data_
 
 name = 'CaptainMS'
 age = '16'
@@ -315,16 +377,44 @@ print(f"Your age; {age2} Years")
 
 
 
+# Commenting the code;
+  #-> Comment the code for understanding & for future reference
+  #-> Ctrl + /   ; To comment a whole line
+
+print('hello world')   # Comment after code
+
+'Refered as string comment'
+"Refered as string comment"
+
+'''
+Refered
+as
+string
+comment
+
+'''
+
+"""
+Refered 
+as
+string
+comment
+
+ WOW
+ 0 0
+  ^
+ ---
+
+"""
+
+# docstring?
 
 
 
-
-
-
-
-
-
-
+# Exercise: Password Checker
+username = input('Enter Username; ')
+password = input('Enter Password; ')
+print(f"\nYour Username; {username}\nYour Password; {'X' * len(password)}\nYour Password Strength;", len(password))
 
 
 

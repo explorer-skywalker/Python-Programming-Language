@@ -1,45 +1,4 @@
 
-# Commenting the code;
-  #-> Comment the code for understanding & for future reference
-  #-> Ctrl + /   ; To comment a whole line
-
-print('hello world')   # Comment after code
-
-'Refered as string comment'
-"Refered as string comment"
-
-'''
-Refered
-as
-string
-comment
-
-'''
-
-"""
-Refered 
-as
-string
-comment
-
- WOW
- 0 0
-  ^
- ---
-
-"""
-
-# docstring?
-
-
-
-# Exercise: Password Checker
-username = input('Enter Username; ')
-password = input('Enter Password; ')
-print(f"\nYour Username; {username}\nYour Password; {'X' * len(password)}\nYour Password Strength;", len(password))
-
-
-
 # Lists
 list
 list1 = ["anything", 1, 2, 3, 'helllo world', 3.33, 9.63, True, False]
@@ -251,48 +210,6 @@ None
   # In other programming languages, None = Null also !
 gamer1_weapon = None
 print(gamer1_weapon)
-
-
-
-# Dictionary;
-dict
-  # Dictionary is an unordered key-value pairs
-dictonary1 = {
-  'a': [1, 2, 3],
-  'b': 'hello',
-  'c': True,
-  'first_program': 'Hello World'
-}
-print(dictonary1)
-print(dictonary1['a'])
-print(dictonary1['b'])
-print(dictonary1['c'])
-print(dictonary1['first_program'])
-
-  # Typecasting dict into list for using index order
-mylist = [
-  {
-  'a': [1, 2, 3],
-  'b': 'hello',
-  'c': True,
-  'first_program': 'Hello World'
-  },
-  {
-  'num1': 1,
-  'num2': 2,
-  'num3': [1, 2, 3]
-  }]
-
-print(mylist)
-print(mylist[0])
-print(mylist[0]['first_program'])
-
-print(mylist[1])
-print(mylist[1]['num3'])
-
-
-
-
 
 
 
