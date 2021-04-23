@@ -67,14 +67,41 @@ print("The sum is", counter)
 
 
 
-# range();
+# range() ;
 range
 
+for numbers in range(1, 101):     # ( _ ) represents a variable for instant use 
+    print(numbers)
+
+for _ in range(1, 11):     # ( _ ) represents a variable for instant use 
+    print(_)
+    
+for _ in range(1, 11, 2):       # Structure;  start : stop : jump/skip
+    print(_)
+
+for _ in range(11, 0, -1):       # If you wanna reverse it, give it the reverse value.
+    print(_)
+
+for _ in range(11, 0, -2):    
+    print(_)
+
+for _ in range(3):              # Repeating value
+    print(list(range(1, 11)))       # type conversion & using range()
+
+for _ in range(1):
+    print(list(range(0, 22)))
+
+
+# Totaling program
+E = 0
+for numbers in range(1, 101):
+    E = E + numbers
+print(f"Total(E) sum is, {E}")
 
 
 
+# enumerate() ;
+enumerate
 
-
-
-
+for 
 
