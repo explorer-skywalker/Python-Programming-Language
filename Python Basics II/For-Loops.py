@@ -103,5 +103,18 @@ print(f"Total(E) sum is, {E}")
 # enumerate() ;
 enumerate
 
-for 
+for char in enumerate("Hellooo"):       # Represents with Index
+    print(char)
+
+for index, character in enumerate(["Hello", '123', 'captain']):     # Works with list, tuple & more
+    print(index, "-", character)
+
+
+    # Exercise, find & print the index of 50 ;
+for i, c in enumerate(list(range(100))):        # Means, 0 to 99
+    # print(i, c)
+    if c == 50:
+        print(f'Index of 50 is, {i}')
+        
+
 
