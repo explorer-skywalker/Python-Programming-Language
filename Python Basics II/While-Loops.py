@@ -26,7 +26,46 @@ else:
 True    #-1
 False   #-0
 
+    # We can do the work of for loops in while loops also;
+list1 = [369, "Captain", "SpaceX", "NASA", 3, 6, 9]
+for items in list1:
+    print(items)
 
+        # Same thing in while loop
+_ = 0
+while _ < len(list1):
+    print(list1)
+    _ += 1
+
+_ = 0
+while _ < len(list1):
+    print(list1[_])
+    _ += 1
+            # Conclusion - for loop is more logical & simple for this solution
+
+    # Infinity;
+while True:
+    responce = input('Say Something: ')
+    if responce == 'ok':
+        break
+
+
+
+# break, continue, pass ;
+        #- works with for & while loops both.
+
+    # break - breaks the loop
+
+    # continue - re-runs the loop
+
+    # pass - simply pass to next line
+
+
+for item in ('hello'):
+    # thinking about it, but i don't wanna error for this
+    pass
+
+print('done!')
 
 
 
