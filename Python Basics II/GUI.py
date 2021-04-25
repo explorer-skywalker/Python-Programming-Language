@@ -20,12 +20,12 @@ for row in image:
         else:
             print("*", end = "")
     # Out the image
-    print("")
+    print("")   # For new line everytime
 
 
 print("\n")
 
-
+    # Reverse
 for row in image:
     for box in row:
         if (box == 0):
@@ -38,22 +38,41 @@ for row in image:
 print("\n")
 
 
+    # Best-Way;
+fill = "*"
+empty = " "
 for row in image:
     for box in row:
-        if (box == 0):
-            print(" ", end = "")    
+        if (box):
+            print(fill, end = "")    
         else:
-            print("*", end = "")
-    print("")
+            print(empty, end = "")
+    print("")  
 
 
 
+# What is good code? ;
+    # Clean
+    # Readability
+    # Predictability
+    # DRY (Don't Repeat Yourself) - Making code reusable
 
-# What is a good code? ;
-    # clean
-    
 
 
+# Exercise - Find Duplicates;
+list1 = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
+
+duplicates = []
+originals = set(list1)
+
+for values in list1:
+    if (list1.count(values) > 1):
+        if (values not in duplicates):
+            duplicates.append(values)        
+
+print(f"The Actual list; {list1}")
+print(f"The duplicates are; {duplicates}")
+print(f"The originals ate; {originals}")
 
 
 
