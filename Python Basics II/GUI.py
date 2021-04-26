@@ -38,7 +38,7 @@ for row in image:
 print("\n")
 
 
-    # Best-Way;
+    # Better-Way;
 fill = "*"
 empty = " "
 for row in image:
