@@ -1,6 +1,6 @@
 
 # Conditional Logic;
-    #-> Running the codes by certain conditions
+# -> Running the codes by certain conditions
 True
 False
 
@@ -15,8 +15,7 @@ else:
     print("You are unauthorised")
 
 
-#-Tabs & Spaces have a significance in python
-
+# -Tabs & Spaces have a significance in python
 
 
 # Truthy & Falsey;
@@ -43,7 +42,6 @@ else:
     print("You are unauthorised")
 
 
-
 # Ternary Operator / Conditional Expressions;
 True
 False
@@ -54,8 +52,6 @@ print(other)
 water = False
 other = "Take Water, Please!" if water else "Your cold coffee is on the way..."
 print(other)
-
-
 
 
 # Short Circuiting;
@@ -80,13 +76,12 @@ else:
     print("Hey! Wait & Focus your work...")
 
 
-
 # Logical Operators;
 bool
 True
 False
 print(5 > 6)
-print(6 > 5) 
+print(6 > 5)
 
 print(5 == 6)
 print(5 != 6)
@@ -106,7 +101,6 @@ print(not(True))
 print(not(False))
 
 
-
 # Exercise_ Logical Operators;
 bool
 is_magician = True
@@ -119,12 +113,11 @@ else:
     print("you need to learn magic!")
 
 
-
 # is v/s == ;
 bool(1)
 bool(0)     # Type conversion
 
-    # Equality ( == )
+# Equality ( == )
 print(True == 1)
 print(False == 0)
 print(1 == '1')
@@ -133,7 +126,7 @@ print(10 == 10.0)
 print([] == [])
 print([1, 2, 3] == [1, 2, 3])
 
-    # Exactly same ( is )
+# Exactly same ( is )
 print(True is 1)
 print(False is 0)
 print(1 is '1')
@@ -145,15 +138,9 @@ print([1, 2, 3] is [1, 2, 3])
 print(True is True)
 print(0 is 0)
 print('1' is '1')
-print([1, 2, 3] is [1, 2, 3])       # False because, each new list always stored in a new memory location
+# False because, each new list always stored in a new memory location
+print([1, 2, 3] is [1, 2, 3])
 print(1 is 1)
 print(False is False)
-print([] is [])     # False because, each new list always stored in a new memory location
-
-
-
-
-
-
-
-
+# False because, each new list always stored in a new memory location
+print([] is [])

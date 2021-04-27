@@ -9,28 +9,27 @@ for item in '1234567890':
 for item in [369, "hello", True, 1319]:     # works with different datatypes also
     print(item)
 
-for item in {369 : "hello", True : 1319}:    
+for item in {369: "hello", True: 1319}:
     print(item)
 
-for item in (369, "hello", True, 1319):    
+for item in (369, "hello", True, 1319):
     print(item)
 
     # Matrix / loop under loop
-for item in [369, "hello", True, 1319]:    
+for item in [369, "hello", True, 1319]:
     for x in [1, 2, 3, 4]:
         print(x, item)
 
 
-
 # Iterables / Iterate;
-    #-> Could be Strings, list[], tuple(), set{}, dict{:}
-    #-> Goes one by one to check every item in collection
+    # -> Could be Strings, list[], tuple(), set{}, dict{:}
+    # -> Goes one by one to check every item in collection
 
     # Iterate over dict{:}
 user1 = {
-    "name" : "Unknown",
-    'age' : "Whatever",
-    'is_concious' : True
+    "name": "Unknown",
+    'age': "Whatever",
+    'is_concious': True
 }
 
 for keys in user1:
@@ -38,7 +37,7 @@ for keys in user1:
 
    # .items()
 for item in user1.items():
-     print(item)
+    print(item)
 
     # .keys()
 for key in user1.keys():
@@ -57,7 +56,6 @@ for key, value in user1.items():
     print(f"{key}-{value}")
 
 
-
 # Exercise: Tricky Counter ;
 list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 counter = 0
@@ -66,23 +64,23 @@ for item in list1:
 print("The sum is", counter)
 
 
-
 # range() ;
 range
 
-for numbers in range(1, 101):     # ( _ ) represents a variable for instant use 
+for numbers in range(1, 101):     # ( _ ) represents a variable for instant use
     print(numbers)
 
-for _ in range(1, 11):     # ( _ ) represents a variable for instant use 
+for _ in range(1, 11):     # ( _ ) represents a variable for instant use
     print(_)
-    
+
 for _ in range(1, 11, 2):       # Structure;  start : stop : jump/skip
     print(_)
 
-for _ in range(11, 0, -1):       # If you wanna reverse it, give it the reverse value.
+# If you wanna reverse it, give it the reverse value.
+for _ in range(11, 0, -1):
     print(_)
 
-for _ in range(11, 0, -2):    
+for _ in range(11, 0, -2):
     print(_)
 
 for _ in range(3):              # Repeating value
@@ -99,22 +97,18 @@ for numbers in range(1, 101):
 print(f"Total(E) sum is, {E}")
 
 
-
 # enumerate() ;
 enumerate
 
 for char in enumerate("Hellooo"):       # Represents with Index
     print(char)
 
-for index, character in enumerate(["Hello", '123', 'captain']):     # Works with list, tuple & more
+# Works with list, tuple & more
+for index, character in enumerate(["Hello", '123', 'captain']):
     print(index, "-", character)
-
 
     # Exercise, find & print the index of 50 ;
 for i, c in enumerate(list(range(100))):        # Means, 0 to 99
     # print(i, c)
     if c == 50:
         print(f'Index of 50 is, {i}')
-        
-
-

@@ -1,4 +1,6 @@
 
+"""
+
 Aim of Learning Python;
     -> God-AI
     -> AI based work which includes Machine Learning, Deep Learning, Data Science 
@@ -29,9 +31,4 @@ Some Basics;
 
 
 
-
-
-
-
-
-
+"""
