@@ -64,7 +64,7 @@ print(highest_even(3, 6, 9, 30, 60, 90, 306090))
 
 
 """
-# Walrus Operator;
+# Walrus Operator ( := )
 
     -> It's focus is that, how to learn about new features of python.
         -> just search, what's new in Python 3.X
@@ -73,3 +73,9 @@ print(highest_even(3, 6, 9, 30, 60, 90, 306090))
 """
 
 a = "hellooo000"
+
+while ((i := len(a)) > 5):
+    print(i)
+    a = a[:-1]
+
+print(a)
