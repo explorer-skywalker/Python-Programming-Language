@@ -32,7 +32,7 @@ print(player3.name)
 print(player3.age)
 
 player3.value = 2010
-print("Raised...", player3.value)
+print("First Appeared...", player3.value)
 
 
 
