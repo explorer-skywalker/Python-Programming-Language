@@ -2,6 +2,7 @@
 # Graphical User Interface ;
 # Exercise;
 # Display the image below to the right hand side where the 0 is going to be ' ', and the 1 is going to be '*'. This will reveal an image!
+
 image = [
     [0, 0, 0, 1, 0, 0, 0],
     [0, 0, 1, 1, 1, 0, 0],
@@ -10,6 +11,7 @@ image = [
     [0, 0, 0, 1, 0, 0, 0],
     [0, 0, 0, 1, 0, 0, 0]
 ]
+
 
 # Iterate over
 for row in image:
@@ -25,6 +27,7 @@ for row in image:
 
 print("\n")
 
+
 # Reverse
 for row in image:
     for box in row:
@@ -36,6 +39,10 @@ for row in image:
 
 
 print("\n")
+
+
+
+
 
 # Better-Way;
 fill = "*"
@@ -49,11 +56,15 @@ for row in image:
     print("")
 
 
+
+
 # What is good code? ;
     # Clean
     # Readability
     # Predictability
     # DRY (Don't Repeat Yourself) - Making code reusable
+
+
 
 
 # Exercise - Find Duplicates;
@@ -70,3 +81,10 @@ for values in list1:
 print(f"The Actual list; {list1}")
 print(f"The duplicates are; {duplicates}")
 print(f"The originals ate; {originals}")
+
+
+
+
+
+
+

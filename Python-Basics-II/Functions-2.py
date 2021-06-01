@@ -34,6 +34,7 @@ etc.
 """
 
 
+
 # Docstrings;
 def test(a):
     '''
@@ -50,6 +51,8 @@ test("hello")
 help(test)
 
 print(test.__doc__)
+
+
 
 
 # Clean code;
@@ -108,3 +111,10 @@ print(is_even(91))
 
 
 """
+
+
+
+
+
+
+

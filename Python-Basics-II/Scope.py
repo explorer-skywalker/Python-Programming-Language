@@ -11,6 +11,7 @@ print(hello)
 # print(hello2)   - error because, it's out of scope
 
 
+
 def fun1():
     hello_ = "Dear Happs"
     print(hello_)
@@ -18,6 +19,8 @@ def fun1():
 
 fun1()
 # print(hello_)  - error because of scope, it's wrong indentation
+
+
 
 
 """
@@ -41,6 +44,7 @@ print(confusion())
 print(a)
 
 
+
 # 2
 b = 3
 
@@ -50,6 +54,8 @@ def confusion1():
 
 
 print(confusion1())
+
+
 
 
 """
@@ -63,7 +69,6 @@ print(confusion1())
 """
 
 h = 1
-
 
 def parent():
     a = 21
@@ -84,6 +89,8 @@ def parent1():
 
 
 print(parent1())
+
+
 
 
 """
@@ -119,6 +126,8 @@ def count1(total1):
 print(count1(count1(count1(total1))))       # better way
 
 
+
+
 """
 nonlocal Keyword;
     -> Redirects to parent local...(Remember Rules !)
@@ -141,6 +150,8 @@ def outer():
 outer()
 
 
+
+
 """
 Why do we need scope?
     -> Because, we don't have infinity hardware resources, they are limited that's why, we have to make efficient programs.
@@ -157,3 +168,12 @@ Python Exam;
     -> Test-2; 
 
 """
+
+
+
+
+
+
+
+
+

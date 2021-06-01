@@ -18,6 +18,8 @@ def say_hello():
 
 say_hello()
 
+
+
 # Implementing Reusability;
 image = [
     [0, 0, 0, 1, 0, 0, 0],
@@ -46,6 +48,7 @@ show_image()
 show_image()
 
 
+
 # Parameters & Arguments;
 
 # Parameters;
@@ -55,6 +58,7 @@ def say(first_name, last_name):
     # Positional Arguments;
 say("Captain", "Skywalker")
 say("Captain", "Murlidhar Singh")
+
 
 
 # Default Parameters & Keyword Arguments;
@@ -68,6 +72,7 @@ print("\nDatabase-1\n")
 users()
 users("Root", "tooR")
 
+
 # Keyword Arguments;
 # It's not a good idea, Use the standard
 users(username="user1", password="/home")
@@ -80,6 +85,8 @@ def sum1(num1, num2):
 
 
 print(sum1(2, 3))
+
+
 
 
 # sum2
@@ -102,6 +109,8 @@ def sum3(num1, num2):
 
 
 print(sum3(10, 20))
+
+
 
 
 # Exercise; Tesla
@@ -150,3 +159,14 @@ def checkDriverAge2(age=0):
 
 
 checkDriverAge2(45)
+
+
+
+
+
+
+
+
+
+
+

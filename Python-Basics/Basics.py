@@ -5,10 +5,12 @@ print('Hello world')
 # -> glot.io  | can code without signup
 
 
+
 # First program;
 name = input('Enter your name; ')
 print('Hello ' + name)
 print('Hello', name)
+
 
 
 # Fundamental Data Types;
@@ -23,6 +25,7 @@ dict
 # Custom Data Types -> class
 # Specialized Data Types
 None   # noting
+
 
 
 # int & float;
@@ -47,12 +50,14 @@ print(3.9 + 6.1)
 print(type(3.9 + 6.1))
 
 
+
 # Math Functions;
 print(round(3.1))   # near value
 print(round(3.5))
 print(round(3.9))
 
 print(abs(-21))   # absolute value
+
 
 
 '''
@@ -63,6 +68,7 @@ Developer fundamentals ;
   -> Learn the concepts, they are grammar[OOP] for all programming languages 
 
 '''
+
 
 
 # Operator Precedence;
@@ -83,6 +89,7 @@ print(bin(3))
 print(bin(6))
 print(bin(9))
 print(int('0b1001', 2))
+
 
 
 # Variables;
@@ -121,6 +128,7 @@ print(c)
 # Keywords must not be assigned as a variable name
 
 
+
 # Expression & Statement;
 iq = 199
 user_age = iq // 6
@@ -128,6 +136,7 @@ user_age = iq // 6
 # Statement; user_age = iq // 6
 print(iq)
 print(user_age)
+
 
 
 # Argumented Assignment Operator;
@@ -153,6 +162,7 @@ print(some_value)
 some_value = 3
 some_value /= 6
 print(some_value)
+
 
 
 # Strings;
@@ -193,9 +203,11 @@ print(full_name)
 print(type(full_name))
 
 
+
 # String Concatenation;
 # -> Adding the strings
 print('hello ' + 'world')   # only work with strings !
+
 
 
 # Type Conversion;
@@ -213,6 +225,7 @@ c = type(int(b))
 print(c)
 
 print(type(int(str(99))))   # same as c
+
 
 
 # Escape sequences;
@@ -274,6 +287,7 @@ print(program1[-1])
 print(program1[::-1])   # Reverse whole String
 
 
+
 # Immutability;
 # -> Can't change / replace the value
 program2 = 'hello captain'
@@ -312,6 +326,7 @@ print(mystr)
 mystr2 = mystr.replace('world', 'captain')
 print(mystr2)   # We've re-assigned the value into another variable
 print(mystr)
+
 
 
 # Booleans;
@@ -358,6 +373,7 @@ age2 = int(current_year) - int(birth_year)   # can also use float
 print(f"Your age; {age2} Years")
 
 
+
 # Commenting the code;
 # -> Comment the code for understanding & for future reference
 # -> Ctrl + /   ; To comment a whole line
@@ -396,3 +412,9 @@ username = input('Enter Username; ')
 password = input('Enter Password; ')
 print(
     f"\nYour Username; {username}\nYour Password; {'X' * len(password)}\nYour Password Strength;", len(password))
+
+
+
+
+
+

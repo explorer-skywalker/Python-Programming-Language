@@ -21,6 +21,8 @@ else:
     print("Done !")     # It'll run only if the loop says True
 
 
+
+
 # while loops 2;
 True  # -1
 False  # -0
@@ -49,6 +51,8 @@ while True:
         break
 
 
+
+
 # break, continue, pass ;
         # - works with for & while loops both.
 
@@ -59,8 +63,18 @@ while True:
     # pass - simply pass to next line
 
 
+
+
+
 for item in ('hello'):
     # thinking about it, but i don't wanna error for this
     pass
 
 print('done!')
+
+
+
+
+
+
+

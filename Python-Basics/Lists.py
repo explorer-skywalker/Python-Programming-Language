@@ -1,6 +1,7 @@
 
 # Lists
 list
+
 list1 = ["anything", 1, 2, 3, 'helllo world', 3.33, 9.63, True, False]
 print(list1)
 print(*list1, '\n')   # Args, Unpacking
@@ -15,6 +16,7 @@ print(*amazon_cart)
 print(amazon_cart[0])   # Index
 print(amazon_cart[3])
 print(amazon_cart[2])
+
 
 
 # List Slicing
@@ -34,6 +36,7 @@ print(amazon_wishlist)
 print(amazon_wishlist[0:5:1])   # list slicing [start:stop:skip]
 print('\n')
 
+
 # list is mutable, it can be modifed/updated
 amazon_wishlist[0] = 'Rasberry PI 4 Tool Kit'
 print(amazon_wishlist, '\n')
@@ -47,6 +50,8 @@ print(amazon_wishlist, '\n')   # Actual list is safe
 new_wishlist = amazon_wishlist2   # Modifying, because it points to actual list
 new_wishlist[0] = 'Macbook Pro'
 print(amazon_wishlist2)   # Actual list changed
+
+
 
 
 # Matrix;
@@ -65,6 +70,8 @@ print(matrix[0])
 print(matrix[1])
 print(matrix[1][0])
 print(matrix[1][2])
+
+
 
 
 # List Methods;
@@ -113,6 +120,7 @@ print(*ai, '\n')
 cleared_list = ai.clear()   # Clears the whole list, yeahhh..
 print(cleared_list)
 print(ai)
+
 
 
 # List Methods 2;
@@ -170,6 +178,7 @@ basket3.reverse()   # points on actual list
 print(basket3)
 
 
+
 # Common List Patterns;
 list
 # reverse methods
@@ -191,6 +200,7 @@ print(new_sentence)
 print(" ! ".join(['Hello', 'Captain']))
 
 
+
 # List Unpacking;
 list
 # *Variable-Name
@@ -209,3 +219,12 @@ None
 # In other programming languages, None = Null also !
 gamer1_weapon = None
 print(gamer1_weapon)
+
+
+
+
+
+
+
+
+

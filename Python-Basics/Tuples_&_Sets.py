@@ -1,7 +1,7 @@
 
 # Tuples;
-# -> Just like a list but it's immutable, you can't modify it in any way
-# -> Faster & Efficient than list in terms of immutability
+    # -> Just like a list but it's immutable, you can't modify it in any way
+    # -> Faster & Efficient than list in terms of immutability
 tuple
 
 my_tuple = (1, 3, 6, 9, 'CaptainMS')
@@ -19,6 +19,8 @@ user1 = {
 print(user1[('user')])
 
 
+
+
 # Tuples 2;
 tuple
 
@@ -33,10 +35,11 @@ print(a, b, c, d)
 print(other)
 
 
-#
+
+
 # Sets;
-# -> Set is an unordered collection of unique objects.
-# -> Set doesn't supports index
+    # -> Set is an unordered collection of unique objects.
+    # -> Set doesn't supports index
 set
 
 my_set = {1, 3, 5, 7, 9}
@@ -50,6 +53,7 @@ print(my_set)
 
 my_set0.add(999)
 print(my_set0)
+
 
 
 # Problem-1
@@ -120,3 +124,6 @@ print(your_set.issubset(my_set2))
 # .issuperset()
 print(my_set2.issuperset(your_set))
 print(your_set.issuperset(my_set2))
+
+
+

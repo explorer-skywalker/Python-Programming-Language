@@ -21,6 +21,7 @@ for item in [369, "hello", True, 1319]:
         print(x, item)
 
 
+
 # Iterables / Iterate;
     # -> Could be Strings, list[], tuple(), set{}, dict{:}
     # -> Goes one by one to check every item in collection
@@ -56,12 +57,14 @@ for key, value in user1.items():
     print(f"{key}-{value}")
 
 
+
 # Exercise: Tricky Counter ;
 list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 counter = 0
 for item in list1:
     counter = counter + item
 print("The sum is", counter)
+
 
 
 # range() ;
@@ -97,6 +100,7 @@ for numbers in range(1, 101):
 print(f"Total(E) sum is, {E}")
 
 
+
 # enumerate() ;
 enumerate
 
@@ -112,3 +116,14 @@ for i, c in enumerate(list(range(100))):        # Means, 0 to 99
     # print(i, c)
     if c == 50:
         print(f'Index of 50 is, {i}')
+
+
+
+
+
+
+
+
+
+
+

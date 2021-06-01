@@ -1,7 +1,9 @@
 
 # Dictionary;
+    #-> Dictionary is an unordered key-value pairs.
+
 dict
-# Dictionary is an unordered key-value pairs
+
 dictonary1 = {
     'a': [1, 2, 3],
     'b': 'hello',
@@ -13,6 +15,8 @@ print(dictonary1['a'])
 print(dictonary1['b'])
 print(dictonary1['c'])
 print(dictonary1['first_program'])
+
+
 
 # Typecasting dict into list for using index order
 mylist = [
@@ -36,10 +40,13 @@ print(mylist[1])
 print(mylist[1]['num3'])
 
 
+
+
 # Understanding Data Structures;
 # Making data in a structure so that, user can access it through desired methods
 # When, which data structure should use, Is a challenge !
 # Different data Structures has it's own significance !
+
 
 
 # Dictionary Keys;
@@ -59,6 +66,7 @@ dictionary1 = {
 print(dictionary1)
 print(dictionary1['hello'])
 print(dictionary1[True])
+
 
 
 # Dictionary Methods;
@@ -84,6 +92,7 @@ print(user.get('name', "username"))
 # Another way to creating dictionary
 user2 = dict(name="CaptainMS")
 print(user2)
+
 
 
 # Dictionary Methods 2;
@@ -125,4 +134,5 @@ print(user.update({"name": "Captian"}))
 print(user)
 
 
-#
+
+

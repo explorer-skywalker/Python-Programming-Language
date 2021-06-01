@@ -1,7 +1,6 @@
 
 # *args & **kwargs ;
 
-
 def function1(*args):
     return sum(args)
 
@@ -29,6 +28,8 @@ def function3(*args, **kwargs):
 print(function3(3, 6, 9, num1=33, num2=66))
 
 
+
+
 # Rule; params, *args, default parameters, **kwargs
 
 def function4(name, *number, iq=369, **age):
@@ -38,8 +39,9 @@ def function4(name, *number, iq=369, **age):
 print(function4("captain", 3, 6, 9, started_year=15, current_age=17))
 
 
-#Exercise; Functions;
 
+
+#Exercise; Functions;
 
 # - My code;
 def highest_even(*number):
@@ -49,6 +51,8 @@ def highest_even(*number):
 
 
 print(highest_even(3, 6, 9, 30, 60, 90))
+
+
 
 
 # Other Method;
@@ -79,3 +83,16 @@ while ((i := len(a)) > 5):
     a = a[:-1]
 
 print(a)
+
+
+
+
+
+
+
+
+
+
+
+
+

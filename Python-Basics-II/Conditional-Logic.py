@@ -14,8 +14,9 @@ elif user_licence:
 else:
     print("You are unauthorised")
 
-
 # -Tabs & Spaces have a significance in python
+
+
 
 
 # Truthy & Falsey;
@@ -42,6 +43,7 @@ else:
     print("You are unauthorised")
 
 
+
 # Ternary Operator / Conditional Expressions;
 True
 False
@@ -52,6 +54,7 @@ print(other)
 water = False
 other = "Take Water, Please!" if water else "Your cold coffee is on the way..."
 print(other)
+
 
 
 # Short Circuiting;
@@ -74,6 +77,8 @@ elif starship or girlfriend:
     print("Not sure, Do what's more important!")
 else:
     print("Hey! Wait & Focus your work...")
+
+
 
 
 # Logical Operators;
@@ -101,6 +106,7 @@ print(not(True))
 print(not(False))
 
 
+
 # Exercise_ Logical Operators;
 bool
 is_magician = True
@@ -111,6 +117,7 @@ elif is_magician and not is_expert:
     print("At least you're getting there")
 else:
     print("you need to learn magic!")
+
 
 
 # is v/s == ;
@@ -144,3 +151,12 @@ print(1 is 1)
 print(False is False)
 # False because, each new list always stored in a new memory location
 print([] is [])
+
+
+
+
+
+
+
+
+
