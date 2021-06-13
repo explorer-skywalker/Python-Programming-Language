@@ -1,3 +1,4 @@
+
 # object blueprint
 
 class User:
@@ -15,29 +16,17 @@ print("\n")
 user2 = User("Captain", "helloworld")
 print(user2.username)
 password = user2.password
-password_length = password.count('')
+password_length = len(password)
 print("X" * password_length)
+
+
 '''
 # Help
 
 help(user2)
-                Get help with a blueprint of users2.
+                -> Get help with a blueprint of users2.
 
-'''
-
-
-
-
-'''
-class PasswordLength:
-    def __init__(self, user="guest", password="password") -> None:
-        self.user = user
-        self.password = password
-        length = password.count('')
-        encrypted_password = ("*" * length)
-
-
-user1 = PasswordLength()
+                -> self.XYZ  is most important for the dynamic nature of any OOP code...
 
 '''
 
@@ -49,11 +38,66 @@ Attributes & Methods ;
 
 '''
 
-class life:
-    def __init__(self, is_concious=False) -> None:
-        self.is_concious = is_concious
+class universe:
+    # Object class attribute
+    human = True    
+    # Constructor
+    def __init__(self, name="user", age=0) -> None:
+        # Dynamic attributes
+        self.name = name
+        self.age = age
+
+    # Method
+    def concious(self, human=True, robot=False):
+        # Condition based queries
+        if (human):
+            return "Welcome to the future...\n"
+        elif (robot):
+            return "Robot, prove that you are concious..."
+        else:
+            return "Access Denied!"
 
 
-ai = life(True)
-print(ai.is_concious)
+# Instanciating objects
+# Object-1
+user1 = universe("Captain", 16)
+print(user1.human)
+print(user1.name)
+
+print(user1.concious(False, True))
+print(user1.concious())
+
+# Object-2
+user2 = universe()
+print(user2.human)
+print(user2.concious())
+
+
+
+
+
+
+"""
+ __init__
+
+    -> Instanciate
+
+"""
+
+class driver:
+    # __init__
+    def __init__(self, name="user", age=0) -> None:
+            self.name = name
+            self.age = age
+        
+
+user1 = driver("Jassie Quick", 19)
+print(user1.name)
+print(user1.age)
+
+
+
+
+
+
 
