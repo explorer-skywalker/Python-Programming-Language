@@ -11,10 +11,8 @@ class Intro:
         self.name = name
         self.age = age
 
-    
     def skills(self):
         return "It depends on each individual..."
-
 
 
 subject1 = Intro("Captain Skywalker", "17")
@@ -26,15 +24,12 @@ print(subject2.skills())
 
 
 dict
-subject3 = {"name":"Captain", "lastname":"Skywalker"}
+subject3 = {"name": "Captain", "lastname": "Skywalker"}
 print(subject3["name"])
 print(subject3["lastname"])
-
-
 
 
 """
 Use OOP instead of anything to mimic the real world or, for code reusability.
 
 """
-
