@@ -1,103 +1,38 @@
+    
+"""
 
-# object blueprint
+Creating the first object/instance ;
 
-class User:
-    def __init__(self, username="guest", password="guest"):
-        self.username = username    # attributes / properties
-        self.password = password
+"""
 
-
-user1 = User()
-print(user1.username)
-print(user1.password)
-
-print("\n")
-
-user2 = User("Captain", "helloworld")
-print(user2.username)
-password = user2.password
-password_length = len(password)
-print("X" * password_length)
-
-
-'''
-# Help
-
-help(user2)
-                -> Get help with a blueprint of users2.
-
-                -> self.XYZ  is most important for the dynamic nature of any OOP code...
-
-'''
-
-
-
-
-'''
-Attributes & Methods ;
-
-'''
-
-class universe:
-    # Object class attribute
-    human = True    
-    # Constructor
-    def __init__(self, name="user", age=0) -> None:
-        # Dynamic attributes
-        self.name = name
+# blueprint
+class PlayerCharacter:
+    def __init__(self, name, age=16):  
+        self.name = name    # attributes /properties /parameters
         self.age = age
 
-    # Method
-    def concious(self, human=True, robot=False):
-        # Condition based queries
-        if (human):
-            return "Welcome to the future...\n"
-        elif (robot):
-            return "Robot, prove that you are concious..."
-        else:
-            return "Access Denied!"
+    def start(self):
+        return "\nStarting Instance Using The Blueprint..."
 
+# individual instances
+player1 = PlayerCharacter("Captain", "17")
+print(player1)
+print(player1.name)
+print(player1.age)
 
-# Instanciating objects
-# Object-1
-user1 = universe("Captain", 16)
-print(user1.human)
-print(user1.name)
+player2 = PlayerCharacter("Skywalker", "18")
+print(player2)
+print(player2.name)
+print(player2.age)
 
-print(user1.concious(False, True))
-print(user1.concious())
+player3 = PlayerCharacter("Tron")
+print(player3.start())
+# print(player3)
+print(player3.name)
+print(player3.age)
 
-# Object-2
-user2 = universe()
-print(user2.human)
-print(user2.concious())
-
-
-
-
-
-
-"""
- __init__
-
-    -> Instanciate
-
-"""
-
-class driver:
-    # __init__
-    def __init__(self, name="user", age=0) -> None:
-            self.name = name
-            self.age = age
-        
-
-user1 = driver("Jassie Quick", 19)
-print(user1.name)
-print(user1.age)
-
-
-
-
+player3.value = 2010
+print("First Appeared...", player3.value)
 
 
 
