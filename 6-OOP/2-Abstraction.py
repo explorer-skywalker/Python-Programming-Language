@@ -30,6 +30,7 @@ Private vs Public Variables:
 class Dark():
     def __init__(self, matter="Dark Matter", energy="Dark Energy") -> None:
         self._matter = matter
+        # Convention of private variables ( _ABC ) but, not true private, just a rule that we can bend.
         self._energy = energy
 
 
@@ -38,3 +39,8 @@ print(research._matter)
 print(research._energy)
 print(
     f"This research topic about {research._matter} and {research._energy} are still under R&D...")
+
+
+# Abstraction Functions
+print(len('Mr. Skywalker'))
+print("Mr. Skywalker".count("r"))

@@ -12,10 +12,10 @@ class Intro:
         self.age = age
 
     def skills(self):
-        return "It depends on each individual..."
+        return "Skills depend on each individual's mindset..."
 
 
-subject1 = Intro("Captain Skywalker", "17")
+subject1 = Intro("Mr. Skywalker", "17")
 print(f"This is {subject1.name}, {subject1.age} years old.")
 
 subject2 = Intro(age=0)
@@ -30,6 +30,6 @@ print(subject3["lastname"])
 
 
 """
-Use OOP instead of anything to mimic the real world or, for code reusability.
+Use OOP instead of anything to mimic the real world & for code reusability.
 
 """
