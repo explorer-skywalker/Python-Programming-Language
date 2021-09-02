@@ -18,3 +18,5 @@ print(*list1)
     At ultimate level, Everything Is Nothing, Don't you understand !
 
 """
+
+print(list1.count(3))
