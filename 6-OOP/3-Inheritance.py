@@ -1,6 +1,6 @@
 """
 
->_  Inheritance, Using functionalities of other objects or inherit therir properties.
+>_  Inheritance, inherit the functionality of other classes along with their own functionality. That's way you got the clean & reusable code also...
 
 """
 
@@ -24,8 +24,10 @@ class Creator(Scientist):
 
 user2 = Creator("Mr. Skywalker", "Spacefaring Civilisation")
 print(user2.intro())
+print(user2.sign_in())
 
 
+# Explorer
 class Explorer(Scientist):
     pass
 
@@ -34,5 +36,14 @@ user1 = Explorer()
 print(user1.sign_in())
 
 
+# Destructor
 class Destructor():
     pass
+
+
+"""
+>_ Inheritance-2 ;
+
+"""
+
+# isinstance(o, t)
