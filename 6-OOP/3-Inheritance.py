@@ -43,7 +43,11 @@ class Destructor():
 
 """
 >_ Inheritance-2 ;
+                >_ Everything is instanciated by the object class as parent class()
 
 """
 
 # isinstance(o, t)
+print(isinstance(user1, Explorer))
+print(isinstance(user1, Scientist))
+print(isinstance(user1, object))
