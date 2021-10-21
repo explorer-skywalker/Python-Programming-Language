@@ -67,7 +67,7 @@ if starship and girlfriend:
 elif starship or girlfriend:
     print("Not sure, Do what's more important!")
 else:
-    print("Hey! Wait & Focus your work...")
+    print("Hey! Wait & Focus on your work...")
 
 starship = True
 girlfriend = True
