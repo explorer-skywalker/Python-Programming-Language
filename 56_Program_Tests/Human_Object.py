@@ -1,8 +1,9 @@
 
 """
 Developer: Mr. Skywalker
-Purpose: Testing an Idea
+Purpose: Human Program
 Stardate: 12021.242.01:21:00
+
 """
 
 
