@@ -17,3 +17,9 @@ print(database1["sci-fi"])
     Just keep learning & move towards The Galactic Human Empire...
 
 '''
+
+
+
+level = 1    
+print(level+1)
+print(level++)

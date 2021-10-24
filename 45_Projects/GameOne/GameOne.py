@@ -16,35 +16,40 @@ print("""
 
 
 def PlayGame():
-    CodeA = random.randint(1, 5)
-    CodeB = random.randint(1, 5)
-    CodeC = random.randint(1, 5)
+    code_one = random.randint(1, 5)
+    code_two = random.randint(1, 5)
+    code_three = random.randint(1, 5)
 
-    CodeSum = CodeA + CodeB + CodeC
-    CodeProduct = CodeA * CodeB * CodeC
+    code_sum = code_one + code_two + code_three
+    code_product = code_one * code_two * code_three
 
     print(">_\tHere's Some Information About The Codes...\n")
-    print("+ The Total Numbers Of Code: 3")
-    print("+ The Codes Join Upto:    ", CodeSum)
-    print("+ The Codes Product Upto: ", CodeProduct)
+    print("+ The Total Codes:         3")
+    print("+ The Codes Join Upto:    ", code_sum)
+    print("+ The Codes Product Upto: ", code_product)
 
-    GuessA = int(input("\n\n\tEnter CodeA:\t"))
-    GuessB = int(input("\tEnter CodeB:\t"))
-    GuessC = int(input("\tEnter CodeC:\t"))
+    guess_one = int(input("\n\n\tEnter first code:  "))
+    guess_two = int(input("\tEnter second code:  "))
+    guess_three = int(input("\tEnter third code:  "))
 
-    GuessSum = GuessA + GuessB + GuessC
-    GuessProduct = GuessA * GuessB * GuessC
+    guess_sum = guess_one + guess_two + guess_three
+    guess_product = guess_one * guess_two * guess_three
 
-    if (GuessSum == CodeSum) and (GuessProduct == CodeProduct):
+    if (guess_sum == code_sum) and (guess_product == code_product):
         print("\n\t\t\t Welcome To The ASAI'S Datacentre Facility :)\n\n")
     else:
         print("\n\t\t Alert! There's A Breach In The Datacentre Facility :(\n\n")
-        print("\tWell, The Codes Were: ", CodeA, CodeB, CodeC)
+        # print("\t Well, The Codes Were: ", code_one, code_two, code_three)
         print("\n")
 
+level = 0
 while (True):
     PlayGame()
-    continue
+    level=level+1
     
+    continue
+
+
+
 
 
