@@ -7,9 +7,9 @@ Abstraction:
 
 
 class Universe():
-    def __init__(self, forces="""Electromagnetism", "Gravity", "Strong & Weak Nuclear Forces""", laws="Laws Of Physics") -> None:
-        self.forces = forces
-        self.laws = laws
+    def __init__(self, _Forces="""Electromagnetism", "Gravity", "Strong & Weak Forces""", _Laws="Laws Of Physics") -> None:
+        self.forces = _Forces
+        self.laws = _Laws
 
     def life(self):
         return self.forces + " And " + self.laws

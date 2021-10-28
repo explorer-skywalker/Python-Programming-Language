@@ -1,6 +1,7 @@
 """
 
->_  Inheritance, inherit the functionality of other classes along with their own functionality. That's way you got the clean & reusable code also...
+>_  Inheritance, 
+        >_  inherit the functionality of other classes along with their own functionality. That's way you got the clean & reusable code also...
 
 """
 
@@ -22,7 +23,7 @@ class Creator(Scientist):
         print(f"\tIt's {self.name},\n \tResearch Area - {self.research_area}")
 
 
-user2 = Creator("Mr. Skywalker", "Spacefaring Civilisation")
+user2 = Creator("Mr. Skywalker", "Spacefaring Civilization")
 print(user2.intro())
 print(user2.sign_in())
 
@@ -51,3 +52,8 @@ class Destructor():
 print(isinstance(user1, Explorer))
 print(isinstance(user1, Scientist))
 print(isinstance(user1, object))
+
+
+
+
+

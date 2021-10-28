@@ -33,6 +33,8 @@ class Cosmos():
 
         super().__init__()
 
+
+
 x_ufo = Cosmos()
 print(x_ufo.ufo)
 print(x_ufo.astro)
