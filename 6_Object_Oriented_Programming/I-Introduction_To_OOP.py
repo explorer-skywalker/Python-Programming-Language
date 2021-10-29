@@ -37,9 +37,6 @@ object2 = BigObject()   # Instanciate, Instance
 
 
 
-
-
-
 print('\n\n\n')
 
 

@@ -33,6 +33,3 @@ player3 = PlayerProfile.add_nums(9, 6)
 print(player3)
 
 
-
-
-

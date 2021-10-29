@@ -46,4 +46,3 @@ print(len('Mr. Skywalker'))
 print("Mr. Skywalker".count("r"))
 
 
-

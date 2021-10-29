@@ -97,7 +97,3 @@ print(user1.age)
 
 
 
-
-
-
-
