@@ -44,3 +44,7 @@ x_ufo.weak = True
 print(x_ufo.weak)
 
   
+
+
+
+  
