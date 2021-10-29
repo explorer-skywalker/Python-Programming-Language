@@ -1,7 +1,7 @@
 
 """
 Developer: Master Skywalker
-Purpose: Object-Cosmos *
+Purpose: Creation of the Cosmos *
 Stardate: 12021.301.13:48:00
 
 """
