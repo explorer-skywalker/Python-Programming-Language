@@ -42,3 +42,8 @@ print(ultimate.Logic())
 print(ultimate.Perfect())
 print(ultimate.Ultimate_Aim())
 print(ultimate.Possibility())
+
+
+
+
+
